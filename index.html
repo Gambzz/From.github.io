@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Pendaftaran dengan Bootstrap</title>
+
+    <!-- Tambahkan pustaka CSS Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#a2d9ff"
+        fill-opacity="1"
+        d="M0,192L26.7,202.7C53.3,213,107,235,160,224C213.3,213,267,171,320,128C373.3,85,427,43,480,48C533.3,53,587,107,640,117.3C693.3,128,747,96,800,80C853.3,64,907,64,960,80C1013.3,96,1067,128,1120,165.3C1173.3,203,1227,245,1280,250.7C1333.3,256,1387,224,1413,208L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"
+      ></path>
+    </svg>
+    <div class="container mt-3">
+      <h2>Formulir Pendaftaran</h2>
+      <form>
+        <div class="form-group">
+          <label for="nama">Nama Lengkap:</label>
+          <input type="text" class="form-control" id="nama" placeholder="Masukkan nama lengkap" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Masukkan email" />
+        </div>
+        <div class="form-group">
+          <label for="password">Kata Sandi:</label>
+          <input type="password" class="form-control" id="password" placeholder="Masukkan kata sandi" />
+        </div>
+        <div class="form-group">
+          <label for="konfirmasi-password">Konfirmasi Kata Sandi:</label>
+          <input type="password" class="form-control" id="konfirmasi-password" placeholder="Konfirmasi kata sandi" />
+        </div>
+        <div class="form-group">
+          <label for="alamat">Alamat:</label>
+          <textarea class="form-control" id="alamat" rows="5" placeholder="Masukkan alamat"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="kota">Kota:</label>
+          <input type="text" class="form-control" id="kota" placeholder="Masukkan kota" />
+        </div>
+        <div class="form-group">
+          <label for="kode-pos">Kode Pos:</label>
+          <input type="text" class="form-control" id="kode-pos" placeholder="Masukkan kode pos" />
+        </div>
+        <div class="form-group">
+          <label for="jenis-kelamin">Jenis Kelamin:</label>
+          <select class="form-control" id="jenis-kelamin">
+            <option>Pilih jenis kelamin</option>
+            <option>Laki-laki</option>
+            <option>Perempuan</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="setuju-syarat" />
+            <label class="form-check-label" for="setuju-syarat">Saya menyetujui syarat dan ketentuan</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Daftar</button>
+      </form>
+    </div>
+
+    <!-- Tambahkan pustaka JavaScript Bootstrap dan jQuery (jika diperlukan) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
